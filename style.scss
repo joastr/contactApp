@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Major+Mono+Display|Roboto+Slab');
+
+$headline: 'Roboto Slab', serif;
+$font: Lato, sans-serif;
+
+.app {
+    max-width: 500px;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.3);
+
+}
+
+input[type="text"], input[type="Email"] {
+    width:80%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    
+}
+
+button {
+    margin: 15px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ec3434;
+    color: white;
+    border:none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    font-family: $font;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+.contactItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 400px;
+    padding: 7px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.contactData {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.contactImage {
+    border-radius: 50%;
+    width: 80px;
+    height: 83px;
+    margin-top: 10px;
+}
+
+p, a {
+    font-family: $font;
+}
+
+h1 {
+    font-family: $font;
+    text-align: center;
+    margin-top: 70px;
+    color: #2d3d7b;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #1d317da8;
+    font-weight: bold;
+}
+
+ul{
+    padding: 0;
+}
+
